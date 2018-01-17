@@ -298,7 +298,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/01/17/类与对象/" itemprop="url">未命名</a></h1>
+                <a class="post-title-link" href="/2018/01/17/类与对象/" itemprop="url">类与对象</a></h1>
         
 
         <div class="post-meta">
@@ -342,7 +342,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  388
+                  496
                 </span>
               
 
@@ -369,8 +369,7 @@
       
         
           
-            <hr>
-<h2 id="title-类与对象"><a href="#title-类与对象" class="headerlink" title="title:类与对象"></a>title:类与对象</h2><p>#类与对象</p>
+            <p>##类与对象</p>
 <p><a href="http://www.xuetangx.com/courses/course-v1:TsinghuaX+00740043X_2015_T2+sp/courseware/81f9b7e20c9c4850b29ccb249c5ed366/a5ca3b701a7948d8bf4111e0685cdb6a/" target="_blank" rel="noopener">网址</a></p>
 <h4 id="面向对象程序的基本特点"><a href="#面向对象程序的基本特点" class="headerlink" title="面向对象程序的基本特点"></a>面向对象程序的基本特点</h4><p>抽象使得协同工作的开发人员可以更多的关注他人的代码功能而非代码实现</p>
 <h4 id="类和对象"><a href="#类和对象" class="headerlink" title="类和对象"></a>类和对象</h4><p>· 此类型的“合法值”是什么？</p>
@@ -392,7 +391,8 @@
 <p>·在类中声明内联函数成员函数的方式：</p>
 <p>​    ·将函数体放在类的声明中</p>
 <p>​    ·使用inline关键字</p>
-<figure class="highlight plain"><figcaption><span>钟表类</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h4 id="类和对象程序举例"><a href="#类和对象程序举例" class="headerlink" title="类和对象程序举例"></a>类和对象程序举例</h4><p>例 - 钟表类</p>
+<figure class="highlight plain"><figcaption><span>钟表类</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">/*类的定义*/</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">class Clock&#123;</span><br><span class="line">  public:</span><br><span class="line">  	void setTime(int newH = 0,int newM = 0,int nweS = 0);</span><br><span class="line">  	void showTime();</span><br><span class="line">  private:</span><br><span class="line">  	int hour,minute,second;</span><br><span class="line">&#125;</span><br><span class="line">/*成员函数的实现*/</span><br><span class="line">void Clock::setTime(int newH,int newM,int newS)&#123;</span><br><span class="line">	hour = newH;</span><br><span class="line">	minute = newM;</span><br><span class="line">	second = newS;</span><br><span class="line">&#125;</span><br><span class="line">void Clock::showTime()&#123;</span><br><span class="line">  cout &lt;&lt; hour &lt;&lt; &quot;:&quot; &lt;&lt; minute &lt;&lt; &quot;:&quot; &lt;&lt; second;</span><br><span class="line">&#125;</span><br><span class="line">/*对象的使用*/</span><br><span class="line">int mian()&#123;</span><br><span class="line">	Clock myClock;</span><br><span class="line">	myClock.setTime(8,30,30);</span><br><span class="line">	myClock.showTime();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
           
         
@@ -622,6 +622,15 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
 
           </nav>
 
@@ -668,7 +677,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">442</span>
+    <span title="Site words total count">550</span>
   
 </div>
 
